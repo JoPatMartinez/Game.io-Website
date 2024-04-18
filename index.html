@@ -1,124 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport", content="width-device-width, initial-scale=1.0">
+		<title>Snake Game</title>
+		<link rel="stylesheet" href="snake.css">
+		<script src="snake.js"></script>
+	</head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1," />
-    <meta name="description"
-        content="Game.io is an online game website that provides different games for all ages to enjoy!">
-    <title>Game.io</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="indexstyle.css">
-    <link rel="icon" href="images/controller.ico" />
-</head>
-
-<body class="body-background">
-    <header>
-        <h1>WELCOME TO GAME.IO!!!</h1>
-    </header>
-
-    <main>
-        <div class="container">
-            <section class="text-center">
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
-                            <img src="images/Hangman-picture.jpg" class="img-fluid" />
-                            <a href="Martinez-John-Hangman-Game-4250 Project/hangman.html">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <h5 class="mb-3">Hangman</h5>
-                        <p class="mb-4"><b>You think you can guess the word before the man is hanged? Try it now and test your wits!</b></p>
-                            <a href="Martinez-John-Hangman-Game-4250 Project/hangman.html" target="_blank"><button class="btn btn-primary">Play Now!</button></a>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
-                            <img src="images/Number-Guesser.jpg" class="img-fluid" />
-                            <a href="Tan-Daisy-Number-Guesser-Game-4250/numbrguessr.html">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <h5 class="mb-3">Number Guesser</h5>
-                        <p class="mb-4">Want to see if you can guess the number in less than 10 tries? Play now and try to beat it!</p>
-                        <a href="Tan-Daisy-Number-Guesser-Game-4250 Project/numbrguessr.html" target="_blank"><button class="btn btn-primary">Play Now!</button></a>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <!---For Games pt. 2--->
-        <!--Simon Says Game-->
-        <div class="container">
-            <section class="text-center">
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
-                            <img src="images/Simon-Says-Game.jpg" class="img-fluid"/>
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <h5 class="mb-3">Simon Says</h5>
-                        <p class="mb-4"> You think you can beat Simon in his own game? Play now and make sure not to
-                            mess up when following along!</p>
-                            <a href="Michael Miranda Snake Game 4250/index.html" target="_blank"><button class="btn btn-primary">Play Now!</button></a>
-                    </div>
-
-                    <!--Wordle Game-->
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
-                            <img src="https://mdbootstrap.com/img/new/standard/nature/252.jpg" class="img-fluid" />
-                                <div class="mask"></div>
-                        </div>
-                        <h5 class="mb-3">Wordle</h5>
-                        <p class="mb-4"><b>Can you guess the word before you run out of tries? Try to platy this fun and detective-like game now!</b></p>
-                        <a href="Fong-Tony-Wordle-Game-4250 Project/index.html" target="_blank"><button class="btn btn-primary">Play Now!</button></a>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <!---For Games pt. 3--->
-        <!--Snake Game-->
-        <div class="container">
-            <section class="text-center">
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
-                            <img src="images/Snake-Game-picture.jpg" class="img-fluid" />
-                        </div>
-                        <h5 class="mb-3"><b>Snake Game</b></h5>
-                        <p class="mb-4"><b>Try to get as long as you can! But be careful, you don't want to accidentally bite yourself rather than the apples!</b></p>
-                        <a href="#" target="_blank"><button class="btn btn-primary">Play Now!</button></a>
-                    </div>
-
-                    <!--OS Roulette Game (Just to pad on the website, not an actual game)-->
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded">
-                            <img src="images/OS-Roulette-Game-Picture.jpg" class="img-fluid" />
-                        </div>
-                        <h5 class="mb-3"><b>OS Roulette</b></h5>
-                        <p class="mb-4"><b>Feeling feisty and dangerous? Take a chance at this roulette, where if you lose, your operating system gets affected!</b></p>
-                        <button class="btn btn-primary">Coming Soon!!!</button>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <!---About Us!-->
-        <div class="container">
-            <section class="text-center">
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-image hover-zoom mb-4 shadow-1-strong rounded"></div>
-                        <h5 class="mb-3"><b>About Us!</b></h5>
-                        <p class="mb-4"><b>Click here to learn more about us!!!</b><a href="contactus.html"><button class="btn btn-primary">About Us!</button></a></p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
-
-</body>
+	<body>
+		<h1>Snake Game </h1>
+		<canvas id="board"></canvas>
+</html>
