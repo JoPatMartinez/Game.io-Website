@@ -15,5 +15,9 @@ h1 {
 
 .about-us-container {
     text-align: center;
+}
+
+.whitebox {
     background-color: white;
+    color: black;
 }
